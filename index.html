@@ -1,0 +1,214 @@
+<!--Bruna Félix-->
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Grey's Anatomy — Início</title>
+   <ul class="nav justify-content-center"></ul>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="index.css" rel="stylesheet" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav class="navbar container d-flex justify-content-between align-items-center" aria-label="Navegação principal">
+      <a href="index.html" class="brand"></a>
+      <!-- Título com nova fonte -->
+      <h1 class="titulo-principal">Grey's Anatomy</h1>
+      <hr>
+      <ul class="nav">
+        <li class="nav-item"><a class="nav-link active" href="#inicio">Início</a></li>
+        <li class="nav-item"><a class="nav-link" href="personagens.html">Personagens</a></li>
+      </ul>
+      <div id="acessibilidade" class="menu-acessibilidade"> 
+                <button id="botao-acessibilidade" class="btn btn-primary fw-bold rotacao-botao" aria-expanded="false">acessibilidade</button>
+                <div id="opcoes-acessibilidade" class="opcoes-acessibilidade apresenta-lista">
+                    <button id="aumentar-fonte" class="btn btn-primary fw-bold" aria-label="Aumentar o tamanho da fonte">A+</button>
+                    <button id="diminuir-fonte" class="btn btn-primary fw-bold" aria-label="diminuir o tamanho da fonte">A-</button>
+                    <button id="alterna-contraste" class="btn btn-primary fw-bold" aria-label="Alterna o contraste de cores"> <i class="bi bi-shadows"></i></button>         
+                </div>
+            </div>
+    </nav>
+  </header>
+
+  <main class="container my-5">
+    <!-- Seção Início -->
+    <section id="inicio" class="section-card" tabindex="0" aria-labelledby="inicio-title">
+      <h2 id="inicio-title" class="mb-4 destaque">Resumo da Série</h2>
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <p class="resumo-texto">
+            <strong>Grey’s Anatomy</strong> Grey’s Anatomy é uma série dramática médica criada por Shonda Rhimes, que acompanha a vida de médicos, residentes e funcionários do hospital fictício Grey Sloan Memorial, em Seattle. A trama foca principalmente em Meredith Grey, uma jovem residente que enfrenta desafios profissionais, dilemas éticos e crises pessoais enquanto busca se tornar uma cirurgiã de destaque. A série mistura casos médicos intensos com dramas emocionais, romances, amizades profundas e rivalidades, mostrando como a vida dentro de um hospital vai muito além das emergências e cirurgias.
+          </p>
+
+          <p class="resumo-texto">
+            Além de Meredith, o elenco é formado por personagens memoráveis, como Cristina Yang, Alex Karev, Miranda Bailey e Derek Shepherd, cada um com histórias complexas e evoluções marcantes. A série se destaca pela narrativa contínua, reviravoltas emocionantes, trilha sonora envolvente e representatividade, abordando temas de raça, gênero e sexualidade. Com mais de 20 temporadas, Grey’s Anatomy se tornou um fenômeno cultural, conquistando fãs ao redor do mundo e se tornando referência no gênero de drama médico.
+          </p>
+        </div>
+        <div class="col-md-6 d-flex flex-wrap justify-content-center gap-3">
+          <img src="img/elenco.jpg" alt="Meredith Grey" class="img-fluid rounded shadow-sm" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção A+ -->
+    <section id="aplus" class="my-5" tabindex="0" aria-labelledby="aplus-title">
+      <h2 id="aplus-title" class="mb-4 text-center destaque">Top 10 Motivos para Assistir Grey's</h2>
+
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <!-- Card 1 -->
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Personagens inesquecíveis e profundos</h5>
+              <p class="card-text">
+                A força de Grey’s Anatomy está nos personagens. Cada um possui uma trajetória própria, cheia de conflitos, conquistas e desafios pessoais. Meredith Grey é a protagonista que equilibra vulnerabilidade e determinação, enquanto Cristina Yang representa ambição, inteligência e lealdade inabalável. Alex Karev evolui de arrogante a empático, mostrando a complexidade do crescimento humano, e Miranda Bailey é o exemplo perfeito de força, compaixão e liderança. A profundidade emocional desses personagens faz com que o público se conecte de forma duradoura e intensa.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Mistura perfeita de drama e medicina</h5>
+              <p class="card-text">
+                A série consegue equilibrar de forma magistral a vida no hospital e os dramas pessoais. Cada cirurgia, cada emergência, cada diagnóstico serve não apenas como desafio médico, mas também como reflexo da vida emocional dos personagens. Situações de risco, decisões éticas complicadas e dilemas morais criam um ambiente de tensão constante, mas também de reflexão sobre o que significa ser humano em meio à pressão da medicina.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Romances emocionantes e complexos</h5>
+              <p class="card-text">
+                O universo amoroso da série é intenso e multifacetado. Triângulos amorosos, paixões inesperadas, desilusões e reconciliações tornam a narrativa eletrizante. O romance entre Meredith e Derek, por exemplo, é cheio de altos e baixos, momentos de ternura e conflito, tornando-se um dos relacionamentos mais icônicos da televisão. Outros pares também exploram dilemas pessoais e profissionais, mostrando que o amor nem sempre é simples, mas sempre é marcante.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Card 4 -->
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Amizades fortes e inspiradoras</h5>
+              <p class="card-text">
+                As amizades em Grey’s Anatomy são poderosas e carregadas de significado. A relação de Meredith e Cristina exemplifica a verdadeira lealdade e parceria: elas brigam, se apoiam e celebram conquistas juntas, mostrando que amizades profundas podem sustentar a vida mesmo em momentos de perda e conflito. Além disso, outras amizades ao longo da série reforçam o valor do apoio mútuo, da empatia e da colaboração.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Card 5 -->
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Trilha sonora envolvente e emocionante</h5>
+              <p class="card-text">
+                A série utiliza a música de forma magistral, transformando cada cena em um momento memorável. Canções cuidadosamente escolhidas amplificam emoções, seja nos dramas, romances ou perdas, criando uma experiência audiovisual completa. A trilha sonora se tornou tão icônica que muitos fãs associam determinadas músicas a cenas e personagens específicos, reforçando a imersão na história.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Card 6 -->
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Reviravoltas e acontecimentos inesperados</h5>
+              <p class="card-text">
+                Grey’s Anatomy é famosa por suas surpresas. Mortes inesperadas, acidentes dramáticos e decisões médicas complexas criam momentos de tensão que prendem o espectador. Essas reviravoltas tornam cada episódio imprevisível, mantendo a série emocionante mesmo depois de dezenas de temporadas.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Card 7 -->
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Desenvolvimento profissional e pessoal</h5>
+              <p class="card-text">
+                A evolução dos personagens vai muito além do drama pessoal. O crescimento profissional de médicos e residentes é retratado com realismo, mostrando dedicação, estudo intenso e decisões éticas difíceis. A série mostra que ser médico envolve não apenas habilidade técnica, mas também humanidade, empatia e coragem para enfrentar situações extremas.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Card 8 -->
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Representatividade e diversidade</h5>
+              <p class="card-text">
+                A série aborda diversidade e inclusão de maneira natural, apresentando personagens de diferentes raças, orientações sexuais, gêneros e origens culturais. Além disso, as histórias exploram temas como preconceito, aceitação e identidade, refletindo a complexidade da sociedade e tornando a série relevante e atual.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Card 9 -->
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Narrativa contínua e viciante</h5>
+              <p class="card-text">
+                Cada temporada se conecta à anterior, criando uma trama contínua e envolvente. As histórias dos personagens se entrelaçam, permitindo que o público acompanhe arcos emocionais complexos, decisões que repercutem por anos e transformações profundas. Isso torna a série viciante e recompensadora para quem se dedica a acompanhá-la por completo.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Card 10 -->
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Impacto cultural duradouro</h5>
+              <p class="card-text">
+              É um fenômeno global que moldou a forma como histórias médicas são contadas. Termos como “McDreamy” entraram no vocabulário popular, e a série inspirou debates sobre ética médica, representatividade e dilemas humanos. Assistir à série é se conectar com uma obra que marcou gerações, influenciou outras produções e continua relevante décadas após sua estreia.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Seção Contato -->
+<section id="contato">
+    <div class="container p-5 d-flex justify-content-center">
+        <div class="col-md-8 col-lg-10 rounded-5 formulario">
+            <h2 class="mb-3">Entre em contato</h2>
+            <form>
+                <div class="form-group mb-3">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" class="form-control rounded-3 mt-1"
+                        placeholder="Digite seu nome completo">
+                </div>
+                <div class="form-group mb-3">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" class="form-control rounded-3 mt-1"
+                        placeholder="Digite seu email">
+                </div>
+                <div class="form-group mb-3">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem" class="form-control rounded-4 mt-2" rows="4"
+                        placeholder="Escreva sua mensagem"></textarea>
+                </div>
+                <div class="d-grid gap-2">
+                    <button type="submit" class="btn btn-primary btn-lg rounded-pill">Enviar
+                        mensagem</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- Footer atualizado -->
+<footer class="text-center p-3 fst-italic">
+    <p class="mt-3">Desenvolvido pela aluna Bruna Felix - 3°C.  Projeto do 3° Bimestre.</p>
+</footer>
+
+<!-- Mantendo o seu script original -->
+ <script src="script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
